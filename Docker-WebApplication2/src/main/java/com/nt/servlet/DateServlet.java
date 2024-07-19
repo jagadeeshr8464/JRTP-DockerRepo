@@ -25,7 +25,7 @@ public class DateServlet extends HttpServlet {
    		//write the response
    		writer.println("<h1  style='color: red;text-align: center'>Date and Time ::"+date+"</h1>");
    		//add home link
-   		writer.println("<br><a href='dateurl'>Home</a>");
+   		writer.println("<br><a href='index.jsp'>Home</a>");
    		//close the stream
    		writer.close();
 	}
